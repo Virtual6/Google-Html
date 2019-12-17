@@ -1,0 +1,73 @@
+/* forms-style.css */
+
+#container {
+	width:600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  padding: 40px;
+  line-height: 28px;
+  border: solid 2px #aaa;
+  background: url('img/blue.jpg') repeat-x center center;
+	background-size: cover;
+}
+
+form {
+	margin-top: 40px;
+}
+fieldset legend {
+	background: white;
+	padding: 10px;
+	border: solid 1px #aaa;
+}
+
+textarea {
+	resize: none;
+}
+input[type = "text"],
+input[type = "tel"],
+input[type = "email"],0
+textarea {
+  padding: 8px;
+  border: solid 1px #454545;
+  width: 50%;
+  display: block;
+  font-size: 14PX;
+	margin: 0 0 20px;
+  font-family:  Monaco, monospace, sans-serif;
+  color: #777;
+  text-transform: uppercase;
+	border-top: none;
+}
+
+label {
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	width: 48%;
+	color: white;
+	background: url('img/tomato-red.jpg');
+	/* padding adds to the width/ it increases the width */
+	padding: 1%;
+}
+
+input[type = "submit"] {
+	background: none;
+	border: solid 1px #777;
+	background: url('img/Gray.jpg') repeat-x;
+	background-size: cover;
+	color: white;
+	height: 40px;
+	padding: 0 40px;
+}
+
+input[type = "submit"]:hover {
+	cursor: pointer;
+	border-color: #444;
+}
+
+input[type = "submit"]:active {
+	border-color: #111;
+	outline-color: orange;
+}

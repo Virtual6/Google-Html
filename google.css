@@ -1,0 +1,156 @@
+/* style Google CSS */
+
+/**********************************
+*             GENERAL
+**********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/**********************************
+*             BODY
+**********************************/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+
+/**********************************
+            STYLES
+**********************************/
+
+#container {
+  width: 580px;
+  margin: 150px auto 0;
+  text-align: center;
+}
+
+h1#logo {
+  height: 95px;
+  width: 269px;
+  background: url('img/google_logo.png') top left no-repeat;
+  background-size: 100%;
+  text-indent: -9999px;
+  margin: 0 auto;
+}
+
+
+/**********************************
+*             INPUTS
+**********************************/
+
+input[type = "search"] {
+	  width: 566px;
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+}
+
+input[type = "search"]:hover {
+  border-color: #aaa;
+}
+
+input[type = "submit"] {
+  background: #eee;
+  color: #777;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  padding: 7px 9px;
+  margin: 0 2px;
+  font-weight: bolder;
+}
+
+input[type = "submit"]:hover {
+  cursor: pointer;
+}
+
+small {
+  display: block;
+  margin: 10px;
+  color: #888;
+  font-size: 12px;
+}
+
+
+/**********************************
+*             LINKS
+**********************************/
+
+a:link, a:visited {
+  color: dodgerblue;
+}
+
+nav#header {
+  text-align: right;
+  padding: 20px;
+}
+
+nav#header ul li, footer nav ul li {
+  display: inline;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited
+{
+  color: #555;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav#header ul li a:active,
+footer nav ul li a:active {
+  color: blue;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#header #sign-in a {
+  color: white;
+  font-weight: bold;
+}
+
+#header #sign-in {
+  background: #555;
+  padding: 5px;
+}
+
+
+/***********************************
+*              FOOTER
+***********************************/
+
+footer {
+  background: #eee;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border: solid 1px #ddd;
+}
+
+footer nav {
+  padding: 15px;
+}
+footer nav ul {
+  float: left;
+}
+
+.right-bottom-links {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
